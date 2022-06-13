@@ -69,7 +69,7 @@ $decription[message]
 $nomention
 $clear[$message] 
 $title[Cleared Messages]
-$color[00FF00]
+$color[00ff00]
 $description[$username deleted $message messages!]
 $footer[$message messages cleared!]
 $deletecommand
@@ -100,7 +100,7 @@ $closeTicket[Ticket Closed]
 .bal
 $nomention
 $thumbnail[$authorAvatar] 
-$color[36393F]
+$color[00ff00]
 $title[Current Balance] 
 $description[
 You have $$getUserVar[Money]]
@@ -129,3 +129,4 @@ $onlyIf[$getUserVar[Money]>500;You do not have enough money. You must have atlea
 $setUserVar[Money;$sub[$getUserVar[Money;$mentioned[1]];$random[0;$getUserVar[Money;$mentioned[1]]]]]
 $setUserVar[Money;$sum[$getUserVar[Money];$random[0;$getUserVar[Money;$mentioned[1]]]]]
 You robbed $random[0;$getUserVar[Money;$mentioned[1]]] by <@$mentioned[1]>
+#BUGGY
