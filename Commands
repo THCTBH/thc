@@ -11,7 +11,7 @@ $nomention
 $title[Help]
 $description[for bot support run .commands or .cmd for commands. For help consider joining https://discord.gg/upGdVqf4q4]
 $footer[]
-$color[8f00ff]
+$color[00ff00]
 
 .commands
 $nomention
@@ -30,7 +30,7 @@ $description[.ban - bans user
 .bal - shows user total money
 .beg - user begs for money]
 $footer[]
-$color[6000ff]
+$color[00ff00]
 
 .cmd
 $nomention
@@ -49,7 +49,7 @@ $description[.ban - bans user
 .bal - shows user total money
 .beg - user begs for money]
 $footer[]
-$color[6000ff]
+$color[00ff00]
 
 .poll
 $nomention
