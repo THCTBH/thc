@@ -124,14 +124,8 @@ $cooldown[30m;Go get a job for 30 minutes]
 
 .rob
 $nomention
-
 $cooldown[30m;You have to wait 30 minutes before you can steal again!]
-
 $onlyIf[$getUserVar[Money]>500;You do not have enough money. You must have atleast 500 to rob someone.]
-
 $setUserVar[Money;$sub[$getUserVar[Money;$mentioned[1]];$random[0;$getUserVar[Money;$mentioned[1]]]]]
-
-
 $setUserVar[Money;$sum[$getUserVar[Money];$random[0;$getUserVar[Money;$mentioned[1]]]]]
-
 You robbed $random[0;$getUserVar[Money;$mentioned[1]]] by <@$mentioned[1]>
