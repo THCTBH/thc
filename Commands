@@ -1,0 +1,123 @@
+.ban
+$nomention
+$ban[]
+
+.kick
+$nomention
+$kickmention[]
+
+.help
+$nomention
+$title[Help]
+$description[for bot support run .commands or .cmd for commands. For help consider joining https://discord.gg/upGdVqf4q4]
+$footer[]
+$color[8f00ff]
+
+.commands
+$nomention
+$title[Commands]
+$description[.ban - bans user
+.kick - kicks user
+.help - helps user
+.clear - clears messages
+.poll - starts a vote
+.tell - embeds message
+.suggest - gives embedded suggestion
+.ticket - opens support ticket
+.close - closes support ticket
+.gamble - gambling game
+.work - user works for money
+.bal - shows user total money
+.beg - user begs for money]
+$footer[]
+$color[6000ff]
+
+.cmd
+$nomention
+$title[Commands]
+$description[.ban - bans user
+.kick - kicks user
+.help - helps user
+.clear - clears messages
+.poll - starts a vote
+.tell - embeds message
+.suggest - gives embedded suggestion
+.ticket - opens support ticket
+.close - closes support ticket
+.gamble - gambling game
+.work - user works for money
+.bal - shows user total money
+.beg - user begs for money]
+$footer[]
+$color[6000ff]
+
+.poll
+$nomention
+$title[Poll Time!]
+$onlyAdmin[Only Admins/Moderators can use this command!]
+$addReactions[👍;👎]
+$description[$message] 
+$footer[👍 You like it - 👎 You don't like it
+
+.tell
+$nomention
+$deletecommand
+$author[$username] $authori=Icon[$authorAvatar]
+$decription[message]
+
+.clear
+$nomention
+$clear[$message] 
+$title[Cleared Messages]
+$color[00FF00]
+$description[$username deleted $message messages!]
+$footer[$message messages cleared!]
+$deletecommand
+$argsCheck[1;Add amount of messages]
+$onlyAdmin[Missing Permissions]
+
+https://discord.gg/
+$deletecommand
+$username Dont send invites
+#BUGGY
+
+.suggest
+$nomention
+$title[Suggestion Time!]
+$addReactions[👍;👎]
+$description[$message] 
+$footer[👍 You like it - 👎 You don't like it
+
+.ticket
+$nomention
+$newTicket[tickets;$username provided no subject.;You've created a ticket. Subject: {subject}
+Staff will be with you soon.;The ticket has been created.;It seems that there is an error. Please contact an admin.]
+$argsCheck[>1;Please include a subject. This will help the process.]
+
+.close
+$closeTicket[Ticket Closed]
+
+.bal
+$nomention
+$thumbnail[$authorAvatar] 
+$color[36393F]
+$title[Current Balance] 
+$description[
+You have $$getUserVar[Money]]
+$footer[You can work to get MONEY]
+
+.work
+$textSplit[$message; ]
+$setUserVar[Money;$sum[$getUserVar[Money];$random[0;100]]]
+$title[$username got:]
+$color[$random[10000;9999999]]
+$description[$random[0;100] 💰 Congratulations :)]
+$cooldown[20s; You need to wait 20 Seconds]
+
+.beg
+$nomention
+$setUserVar[Money;$sum[250;$getUserVar[Money]]]
+$title[$username, Here’s some pocket change peasant]
+$color[FFFFF1]
+$description[You got $250]
+$cooldown[30m;Go get a job for 30 minutes]
