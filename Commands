@@ -135,5 +135,4 @@ You robbed $random[0;$getUserVar[Money;$mentioned[1]]] by <@$mentioned[1]>
 $nomention
 $color[00ff00]
 $description[😘 $username Kissed <@$mentioned[<]>]
-$image[$randomText[https://cdn.discordapp.com/attachments/603251454542741504/603251515846688777/tenor.gif;https://cdn.discordapp.com/attachments/603251454542741504/603251516282765312/tenor_4.gif;https://cdn.discordapp.com/attachments/603251454542741504/603251516282765313/giphy_1.gif;https://cdn.discordapp.com/attachments/603251454542741504/603251517033807892/tenor_1.gif;https://cdn.discordapp.com/attachments/603251454542741504/603251517633462319/tenor_2.gif;https://cdn.discordapp.com/attachments/603251454542741504/603251517633462480/giphy.gif;https://cdn.discordapp.com/attachments/603251454542741504/603251519030296587/tenor_5.gif;https://cdn.discordapp.com/attachments/603251454542741504/603251519030296589/tenor_6.gif]]
-#BUGGY
+$image[https://cdn.discordapp.com/attachments/985630449432920144/986100351176425472/kiss-love.gif]
